@@ -10,7 +10,7 @@ pipeline {
 				sh "mvn clean"
 			}
 		}
-		stage('---test---') {
+		stage('test') {
 			tools {
 				maven 'maven_3.9.0'
 			}
