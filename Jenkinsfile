@@ -1,7 +1,7 @@
 pipeline {
 	agent {  label 'linux-node' }
 	stages {
-		stage('---clean----'){
+		stage('clean'){
 			tools {
 				maven 'maven_3.9.6'
 			}
